@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+       <!-- font awesome -->
+  <link rel="stylesheet" href="./fontAwesome/all.min.css" />
+  
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./bootstarp/css/bootstrap.min.css" />
+
+  <!-- owl carousle -->
+
+  <link rel="stylesheet" href="./carasul/css/owl.carousel.min.css"/>
+
+  <link rel="stylesheet" href="./carasul/css/owl.theme.default.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+ 
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="top-navbar container">
+          <div class="left-part">
+            <p class>Welcome to Worldwide Electronics Store</p>
+          </div>
+    
+          <div class="right-part">
+           
+          <select>
+              <option value="USD">USD</option>
+              <option value="BDT">BDT</option>
+            </select>
+            <div class="content-rigth"></div>
+            <select>
+              <option value="ENG">ENG</option>
+              <option value="BNG">BNG</option>
+            </select>
+    
+            <div class="content-rigth"></div>
+            <p>Wishlist</p>
+          </div>
+        </div>
+        <hr />
+    
+        <nav class="navbar  navbar-expand-lg nav-bar">
+          <div class="container">
+            <a class="navbar-brand logo" href="#"><img src="/img/Logo.png" alt="" /></a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span ><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> ABOUT </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link t" href="allProducts3.html">TOP PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="allProducts2.html">SPECIAL PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactUs.html"> CONTACT</a>
+                </li>
+              </ul>
+              <div class="navbar-text d-flex  m-auto">
+                <form class="d-flex">
+                  <input class="me-2" type="search" placeholder="Search Here" aria-label="Search" />
+                  <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <a href="#" class="text-decoration-none">
+                  <div class="account d-flex justify-content-center align-items-baseline gap-2">
+                    <img src="./svg/account.svg" alt="" />
+                    <p>My Account</p>
+                  </div>
+                </a>
+                <div class="busket">
+                  <img src="./svg/busket-2.svg" alt="" />
+                  <h5>2</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+    
+      </div>
+
+
+      <!-- all products  logo and text start -->
+      <section class="about-us-text"  id="about ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6">
+                  <div class="animation">
+                    <img src="./img/login/card.png" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1>All Products</h1>
+                        <div class="about-link">
+                            <a href="index.html">Home</a>
+                            /
+                            <a href="#">All Products</a>
+                        </div>
+                </div>
+            </div>
+          </div>
+      </section>
+         <!-- all products  logo and text end -->
+
+
+
+        <section id="all-products">
+            <div class="container mt-5 ">
+                <div class="row">
+                    <div class="products-top d-flex align-items-center justify-content-between">
+                    
+                       <div class="product-fab-icon">
+                        <i  class="fa-solid fa-bars frist-icon"></i>
+                        <i class="fal fa-th-large"></i>
+                       </div>
+                       
+                        
+                            <div class="d-flex gap-3">
+                          
+                                <div class="show d-flex gap-2">
+                                    <h6>Show:</h6>
+                                <select class="select" name="" id="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                             
+                                </div>
+                          
+                                <div class="show  d-flex gap-2" >
+                                    <h6>Sort By:</h6>
+                            <select  class="select" name="" id="">
+                                <option value="default-sorting">Default Sorting</option>
+                                <option value="category-sorting">category-sorting</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                                </div>
+                          </div>
+                        
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class="card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="parsent">10%</h5>
+                                    <img class="top-product-img" src="/img/top-rated/projector.png" alt="">
+                                    <p class="projector">Projectors</p>
+                                    <p class="multimedia">Multimedia Projectors</p>
+                                    <div class="top-rated-svg-icon">
+                                      <div class="rating">
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal "></i>
+                                      </div>
+                                    </div>
+                                    <h6 class="price">$129.00</h6>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="parsent">15%</h5>
+                                    <img class="top-product-img" src="/img/top-rated/television.png" alt="">
+                                    <p class="projector">Television</p>
+                                    <p class="multimedia">Android TV Television Box</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <h6 class="price">$167.00</h6>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class="card top-rated-card h-100 align-items-center">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="parsent">5%</h5>
+                                  <img class="top-product-img" src="/img/top-rated/speaker.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Wireless Loudspeaker</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <h6 class="price">$134.00</h6>
+                                </div>
+                               </div>
+                      
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="parsent">20%</h5>
+                                    <img class="top-product-img" src="/img/top-rated/headphone.png" alt="">
+                                    <p class="projector">Headphone</p>
+                                    <p class="multimedia">Microphone Advance Spirit</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <h6 class="price">$237.00</h6>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="parsent">15%</h5>
+                                  <img class="top-product-img" src="/img/top-rated/tap-speaker.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Loudspeaker Wireless JBL</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <h6 class="price">$123.00</h6>
+                                </div>
+                               </div>
+                                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="parsent">5%</h5>
+                                  <img class="top-product-img" src="/img/top-rated/microphone.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Wireless microphone Radio</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <h6 class="price">$297.00</h6>
+                                </div>
+                               </div>
+                      
+                             </div>
+
+                             <div class="row g-3 mt-5">
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class="card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/phone.png" alt="">
+                                    <p class="projector">Phone</p>
+                                    <p class="multimedia">Feature phone Mobile phone</p>
+                                    <div class="top-rated-svg-icon">
+                                      <div class="rating">
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal "></i>
+                                      </div>
+                                    </div>
+                                    <div class="price-card">
+                                        <h5>$58.00</h5>
+                                        <del>$74.00</del>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/headphone.png" alt="">
+                                    <p class="projector">Headphone</p>
+                                    <p class="multimedia">Headphones JBL Wireless</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <div class="price-card">
+                                        <h5>$63.00</h5>
+                                        <del>$34.00</del>
+                                      </div>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class="card top-rated-card h-100 align-items-center">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/camere.png" alt="">
+                                  <p class="projector">Camera</p>
+                                  <p class="multimedia">Wireless security camera</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$47.00</h5>
+                                    <del>$62.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                      
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/catni.png" alt="">
+                                    <p class="projector">Kettle</p>
+                                    <p class="multimedia">Electric water Boiler</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <div class="price-card">
+                                        <h5>$47.00</h5>
+                                        <del>$62.00</del>
+                                      </div>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/watch.png" alt="">
+                                  <p class="projector">Watch</p>
+                                  <p class="multimedia">Circadian Night Melatonin</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$47.00</h5>
+                                    <del>$62.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/handwatch.png" alt="">
+                                  <p class="projector">Watch</p>
+                                  <p class="multimedia">Apple Watch Series 3</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$47.00</h5>
+                                    <del>$62.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                      
+                              </div>
+
+                              <div class="row g-3 mt-5">
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class="card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                 <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/speaker.png" alt="">
+                                    <p class="projector">Speaker</p>
+                                    <p class="multimedia">Round red & black speaker</p>
+                                    <div class="top-rated-svg-icon">
+                                      <div class="rating">
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal "></i>
+                                      </div>
+                                    </div>
+                                    <div class="price-card">
+                                        <h5>$58.00</h5>
+                                        <del>$74.00</del>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/ac.png" alt="">
+                                    <p class="projector">Air Conditioner</p>
+                                    <p class="multimedia">Headphones JBL Wireless</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <div class="price-card">
+                                        <h5>$34.00</h5>
+                                        <del>$64.00</del>
+                                      </div>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class="card top-rated-card h-100 align-items-center">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/speaker2.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Speaker, car Subwoofer</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$47.00</h5>
+                                    <del>$62.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                      
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/red-headphn.png" alt="">
+                                    <p class="projector">Headphone</p>
+                                    <p class="multimedia">Microphone Advance Spirit</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <div class="price-card">
+                                      <h5>$63.00</h5>
+                                      <del>$34.00</del>
+                                    </div>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/top-rated/tap-speaker.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Loudspeaker Wireless JBL</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$63.00</h5>
+                                    <del>$34.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/top-rated/microphone.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Wireless microphone Radio</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$63.00</h5>
+                                    <del>$34.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                      
+                              </div>
+
+                              <div class="row g-3 mt-5 mb-5">
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class="card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/pngwing 21.png" alt="">
+                                    <p class="projector">Projectors</p>
+                                    <p class="multimedia">Multimedia Projectors</p>
+                                    <div class="top-rated-svg-icon">
+                                      <div class="rating">
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal"></i>
+                                        <i class="fa fa-star normal "></i>
+                                      </div>
+                                    </div>
+                                    <div class="price-card">
+                                      <h5>$63.00</h5>
+                                      <del>$34.00</del>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/pngwing 33.png" alt="">
+                                    <p class="projector">Phone</p>
+                                    <p class="multimedia">iphone 13 pro back</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <div class="price-card">
+                                      <h5>$163.00</h5>
+                                      <del>$234.00</del>
+                                    </div>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class="card top-rated-card h-100 align-items-center">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/pngwing 24.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Wireless Loudspeaker</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$63.00</h5>
+                                    <del>$34.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                      
+                                <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                  <div class=" card top-rated-card h-100 align-items-center">
+                                    <div class="camera-icons top-rate-icon">
+                                      <i class="fa-thin fa-heart"></i>
+                                      <i class="fa-thin fa-code-compare"></i>
+                                      <i class="fa-thin fa-cart-shopping"></i>
+                                    </div>
+                                    <h5 class="onsale">On Sale</h5>
+                                    <img class="top-product-img" src="/img/products/pngwing 23.png" alt="">
+                                    <p class="projector">Headphone</p>
+                                    <p class="multimedia">Microphone Advance Spirit</p>
+                                    <div class="rating">
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star pink"></i>
+                                      <i class="fa fa-star normal"></i>
+                                      <i class="fa fa-star normal "></i>
+                                    </div>
+                                    <div class="price-card">
+                                      <h5>$63.00</h5>
+                                      <del>$34.00</del>
+                                    </div>
+                                  </div>
+                                </div>
+                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/pngwing 34.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Loudspeaker Wireless JBL</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$63.00</h5>
+                                    <del>$34.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                                      
+                               <div class="col-lg-2 col-md-6 col-sm-6 ">
+                                <div class=" card top-rated-card align-items-center h-100">
+                                  <div class="camera-icons top-rate-icon">
+                                    <i class="fa-thin fa-heart"></i>
+                                    <i class="fa-thin fa-code-compare"></i>
+                                    <i class="fa-thin fa-cart-shopping"></i>
+                                  </div>
+                                  <h5 class="onsale">On Sale</h5>
+                                  <img class="top-product-img" src="/img/products/pngwing 35.png" alt="">
+                                  <p class="projector">Speaker</p>
+                                  <p class="multimedia">Wireless microphone Radio</p>
+                                  <div class="rating">
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star pink"></i>
+                                    <i class="fa fa-star normal"></i>
+                                    <i class="fa fa-star normal "></i>
+                                  </div>
+                                  <div class="price-card">
+                                    <h5>$63.00</h5>
+                                    <del>$34.00</del>
+                                  </div>
+                                </div>
+                               </div>
+                      
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newslatter">
+            <div class="container mt-5 mb-5 newslatter">
+              <div class="row">
+                <div class="newslatter-content d-flex">
+                  <h1>Sign up to Newsletter <span>&amp; Get 20% Discount</span></h1>
+                  <div class="subscribe">
+                    <input type="email" name="" id="" placeholder="Enter your Email">
+                    <button>Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+<footer id="footer">
+ 
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-between mt-4 top-footer">
+            <img class="footer-logo" src="/img/footer-logo.png" alt="">
+            <div class="footer-svg">
+            <a href="#">  <img src="/img/footer/facebook.svg" alt=""></a>
+              <a href="#">   <img src="/img/footer/twitter.svg" alt=""></a>
+            <a href="#">  <img src="/img/footer/linkdln.svg" alt=""></a>
+             <a href="#"> <img src="/img/footer/pittarest.svg" alt=""></a>
+          <a href="#">    <img src="/img/footer/last.svg" alt=""></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-middle ">
+    <div class="container">
+      <div class="row">
+        
+          <div class="col-lg-3 col-md-6 col-sm-6 ">
+            <div class="all-link">
+              <h2>Static link</h2>
+             <div class="">
+              <a href="#">On Sale Product</a>
+              <a href="#">Top Rated Product</a>
+              <a href="#">Popular Product</a>
+              <a href="#">Latest Product</a>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 col-sm-6">
+            <div class="all-link">
+              <h2>Information</h2>
+             <div class="">
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+              <a href="#">All Collection</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms &amp; Condition</a>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 col-sm-6">
+            <div class="all-link">
+              <h2>Categories</h2>
+             <div class="">
+              <a href="#">Accessories</a>
+              <a href="#">Headphone</a>
+              <a href="#">Phone</a>
+              <a href="#">Speaker</a>
+              <a href="#">Television</a>
+             </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 mt-2 col-sm-6">
+            <div class="all-link">
+              <h2>Contact</h2>
+
+             <div class="address d-flex gap-3 ">
+                <img src="./img/footer/location.svg" alt="">
+                <h4>4462 McDowell <br>
+                  StreetPulaski, TN 38478</h4>
+             </div>
+             
+             <div class="address d-flex gap-3 mt-2">
+              <img src="./img/footer/phone.svg" alt="">
+              <h4>+880 123 (456) 789</h4>
+           </div>
+           
+           <div class="address d-flex  gap-3 mt-2">
+            <img src="./img/footer/msg.svg" alt="">
+            <h4>example@gmail.com</h4>
+         </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer-bottom mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="copy-right d-flex justify-content-between align-items-center p-3">
+             <p class="m-0"> Copyright © 2023 <span>Techno</span> All Rights Reserved</p>
+        
+            <div class="footer-page-link">
+              <a href="#">Contact Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms &amp; Conditions</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+
+         
+        <script src="./bootstarp/js/bootstrap.min.js"></script>
+
+        <script src="./carasul/js/jquery.min.js"></script>
+      
+        <script src="./carasul/js/owl.carousel.min.js"></script>
+        
+          <script src="./script.js"></script>
+
+
+</body>
+</html>
